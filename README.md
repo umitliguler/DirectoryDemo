@@ -2,28 +2,37 @@
 # Klasörler oluşturup,  dizin taşıma işlemleri, oluşturulma zamanlarını belirleme
 
 
+@umitliguler :+1: This looks great - it's ready to using! :shipit:
+
+
 # Adres ile belirtilen adreste bir klasör oluşturur ve bu klasör bilgilerini bir DirectoryInfo nesnesi olarak tutar.
 
 # Programımızın çalıştığı klasörde bir klasör oluşturmak için sadece klasörün adını yazmak yeterlidir. 
 
-@umitliguler :+1: This PR looks great - it's ready to using! :shipit:
-
 
 ## Örnekler:
 
-```Directory.CreateDirectory(@"C:\WINDOWS\deneme");```
+```C#
+Directory.CreateDirectory(@"C:\WINDOWS\deneme");
+```
 
 Bu kod C:\WINDOWS altında deneme isimli bir klasör oluşturur.
 
-```Directory.CreateDirectory("deneme");```
+```C#
+Directory.CreateDirectory("deneme");
+```
 
 Bu kod programın çalıştığı klasörde deneme isimli bir klasör oluşturur.
 
-```Directory.CreateDirectory(@"..\deneme");```
+```C#
+Directory.CreateDirectory(@"..\deneme");
+```
 
 Bu kod programın çalıştığı klasörün bir üst klasöründe deneme isimli bir klasör oluşturur.
 
-```Directory.CreateDirectory(@"..\..\deneme");```
+```C#
+Directory.CreateDirectory(@"..\..\deneme");
+```
 
 Bu kod programın çalıştığı klasörün iki üst klasöründe deneme isimli bir klasör oluşturur. .. sayıları bu şekilde artırılabilir.
 
@@ -33,7 +42,8 @@ Ayrıca bu ve diğer bütün metotlarda da adres diye tarif ettiğimiz veriye do
 
 
 
-```string adres=@"C:\deneme";
+```C#
+string adres=@"C:\deneme";
 DirectoryInfo d=new DirectoryInfo(adres);
 d.Create();
 DirectoryInfo alt=d.CreateSubdirectory("deneme2");
