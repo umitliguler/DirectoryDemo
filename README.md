@@ -6,6 +6,9 @@
 
 # Programımızın çalıştığı klasörde bir klasör oluşturmak için sadece klasörün adını yazmak yeterlidir. 
 
+@umitliguler :+1: This PR looks great - it's ready to using! :shipit:
+
+
 ## Örnekler:
 
 ```Directory.CreateDirectory(@"C:\WINDOWS\deneme");```
@@ -27,6 +30,8 @@ Bu kod programın çalıştığı klasörün iki üst klasöründe deneme isimli
 Bu tür bir adres belirtme şekli bütün diğer metotlarda da geçerlidir.
 
 Ayrıca bu ve diğer bütün metotlarda da adres diye tarif ettiğimiz veriye dosya/klasörün adı da dâhildir.
+
+
 
 ```string adres=@"C:\deneme";
 DirectoryInfo d=new DirectoryInfo(adres);
@@ -93,7 +98,7 @@ class PathSinifi
       Console.WriteLine("\nAdres ayırıcı karakter: "+Path.PathSeparator);
       Console.WriteLine("Kök dizin ayıracı: "+Path.VolumeSeparatorChar);
    }
-}```
+}
+```
 
 
-@umitliguler :+1: This PR looks great - it's ready to using! :shipit:
