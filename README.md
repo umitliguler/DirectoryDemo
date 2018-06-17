@@ -2,11 +2,11 @@
 # Klasörler oluşturup,  dizin taşıma işlemleri, oluşturulma zamanlarını belirleme
 
 
-#Adres ile belirtilen adreste bir klasör oluşturur ve bu klasör bilgilerini bir DirectoryInfo nesnesi olarak tutar.
+# Adres ile belirtilen adreste bir klasör oluşturur ve bu klasör bilgilerini bir DirectoryInfo nesnesi olarak tutar.
 
-#Programımızın çalıştığı klasörde bir klasör oluşturmak için sadece klasörün adını yazmak yeterlidir. 
+# Programımızın çalıştığı klasörde bir klasör oluşturmak için sadece klasörün adını yazmak yeterlidir. 
 
-##Örnekler:
+## Örnekler:
 
 ```Directory.CreateDirectory(@"C:\WINDOWS\deneme");```
 
@@ -28,22 +28,16 @@ Bu tür bir adres belirtme şekli bütün diğer metotlarda da geçerlidir.
 
 Ayrıca bu ve diğer bütün metotlarda da adres diye tarif ettiğimiz veriye dosya/klasörün adı da dâhildir.
 
------------------------------------------------------------------------------------------------------------------------------------
 ```string adres=@"C:\deneme";
-
 DirectoryInfo d=new DirectoryInfo(adres);
-
 d.Create();
-
 DirectoryInfo alt=d.CreateSubdirectory("deneme2");
-
 alt.CreateSubdirectory("deneme3");
 
------------------------------------------------------------------------------------------------------------------------------------
-```using System;
 
+
+using System;
 using System.IO;
-
 class FileInfoSinifi
 {
    static void Main()
@@ -62,7 +56,9 @@ class FileInfoSinifi
       Console.WriteLine("Bulunduğu klasör: "+d.DirectoryName);
    }
 }
-------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 using System;
 using System.IO;
