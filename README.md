@@ -1,35 +1,49 @@
-# DirectoryDemo
-Klasörler oluşturup,  dizin taşıma işlemleri, oluşturulma zamanlarını belirleme
+##  DirectoryDemo
+# Klasörler oluşturup,  dizin taşıma işlemleri, oluşturulma zamanlarını belirleme
 
 
 Adres ile belirtilen adreste bir klasör oluşturur ve bu klasör bilgilerini bir DirectoryInfo nesnesi olarak tutar.
+
 Programımızın çalıştığı klasörde bir klasör oluşturmak için sadece klasörün adını yazmak yeterlidir. 
+
 Örnekler:
 
-Directory.CreateDirectory(@"C:\WINDOWS\deneme");
+```Directory.CreateDirectory(@"C:\WINDOWS\deneme");```
+
 Bu kod C:\WINDOWS altında deneme isimli bir klasör oluşturur.
 
-Directory.CreateDirectory("deneme");
+```Directory.CreateDirectory("deneme");```
+
 Bu kod programın çalıştığı klasörde deneme isimli bir klasör oluşturur.
 
-Directory.CreateDirectory(@"..\deneme");
+```Directory.CreateDirectory(@"..\deneme");```
+
 Bu kod programın çalıştığı klasörün bir üst klasöründe deneme isimli bir klasör oluşturur.
 
-Directory.CreateDirectory(@"..\..\deneme");
+```Directory.CreateDirectory(@"..\..\deneme");```
+
 Bu kod programın çalıştığı klasörün iki üst klasöründe deneme isimli bir klasör oluşturur. .. sayıları bu şekilde artırılabilir.
+
 Bu tür bir adres belirtme şekli bütün diğer metotlarda da geçerlidir.
+
 Ayrıca bu ve diğer bütün metotlarda da adres diye tarif ettiğimiz veriye dosya/klasörün adı da dâhildir.
 
 -----------------------------------------------------------------------------------------------------------------------------------
-string adres=@"C:\deneme";
+```string adres=@"C:\deneme";
+
 DirectoryInfo d=new DirectoryInfo(adres);
+
 d.Create();
+
 DirectoryInfo alt=d.CreateSubdirectory("deneme2");
-alt.CreateSubdirectory("deneme3");
+
+alt.CreateSubdirectory("deneme3");```
 
 -----------------------------------------------------------------------------------------------------------------------------------
-using System;
+```using System;
+
 using System.IO;
+
 class FileInfoSinifi
 {
    static void Main()
@@ -47,10 +61,10 @@ class FileInfoSinifi
       Console.WriteLine("Klasör adı: "+d.Name);
       Console.WriteLine("Bulunduğu klasör: "+d.DirectoryName);
    }
-}
+}```
 ------------------------------------------------------------------------------------------------------------------------------
 
-using System;
+```using System;
 using System.IO;
 class PathSinifi
 {
@@ -83,4 +97,7 @@ class PathSinifi
       Console.WriteLine("\nAdres ayırıcı karakter: "+Path.PathSeparator);
       Console.WriteLine("Kök dizin ayıracı: "+Path.VolumeSeparatorChar);
    }
-}
+}```
+
+
+@umitliguler :+1: This PR looks great - it's ready to using! :shipit:
