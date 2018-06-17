@@ -1,13 +1,13 @@
 ##  DirectoryDemo
-# Klasörler oluşturup,  dizin taşıma işlemleri, oluşturulma zamanlarını belirleme
+** _  Klasörler oluşturup,  dizin taşıma işlemleri, oluşturulma zamanlarını belirleme. _ **
 
 
 @umitliguler :+1: This looks great - it's ready to using! :shipit:
 
 
-# Adres ile belirtilen adreste bir klasör oluşturur ve bu klasör bilgilerini bir DirectoryInfo nesnesi olarak tutar.
+** _ Adres ile belirtilen adreste bir klasör oluşturur ve bu klasör bilgilerini bir DirectoryInfo nesnesi olarak tutar. _ **
 
-# Programımızın çalıştığı klasörde bir klasör oluşturmak için sadece klasörün adını yazmak yeterlidir. 
+** _  Programımızın çalıştığı klasörde bir klasör oluşturmak için sadece klasörün adını yazmak yeterlidir. _ **
 
 
 ## Örnekler:
@@ -16,29 +16,29 @@
 Directory.CreateDirectory(@"C:\WINDOWS\deneme");
 ```
 
-Bu kod C:\WINDOWS altında deneme isimli bir klasör oluşturur.
+** _  Bu kod C:\WINDOWS altında deneme isimli bir klasör oluşturur. _ **
 
 ```C#
 Directory.CreateDirectory("deneme");
 ```
 
-Bu kod programın çalıştığı klasörde deneme isimli bir klasör oluşturur.
+** _  Bu kod programın çalıştığı klasörde deneme isimli bir klasör oluşturur. _ **
 
 ```C#
 Directory.CreateDirectory(@"..\deneme");
 ```
 
-Bu kod programın çalıştığı klasörün bir üst klasöründe deneme isimli bir klasör oluşturur.
+** _  Bu kod programın çalıştığı klasörün bir üst klasöründe deneme isimli bir klasör oluşturur. _ **
 
 ```C#
 Directory.CreateDirectory(@"..\..\deneme");
 ```
 
-Bu kod programın çalıştığı klasörün iki üst klasöründe deneme isimli bir klasör oluşturur. .. sayıları bu şekilde artırılabilir.
+** _  Bu kod programın çalıştığı klasörün iki üst klasöründe deneme isimli bir klasör oluşturur. .. sayıları bu şekilde artırılabilir.
 
 Bu tür bir adres belirtme şekli bütün diğer metotlarda da geçerlidir.
 
-Ayrıca bu ve diğer bütün metotlarda da adres diye tarif ettiğimiz veriye dosya/klasörün adı da dâhildir.
+Ayrıca bu ve diğer bütün metotlarda da adres diye tarif ettiğimiz veriye dosya/klasörün adı da dâhildir._ **
 
 
 
