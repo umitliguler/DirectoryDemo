@@ -1,0 +1,20 @@
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\DirectoryDemo\DirectoryDemo\bin\Debug\DirectoryDemo.exe.config
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\DirectoryDemo\DirectoryDemo\bin\Debug\DirectoryDemo.exe
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\DirectoryDemo\DirectoryDemo\bin\Debug\DirectoryDemo.pdb
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.csprojResolveAssemblyReference.cache
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.exe
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.pdb
+C:\Users\umit\Desktop\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\bin\Debug\DirectoryDemo.exe.config
+C:\Users\umit\Desktop\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\bin\Debug\DirectoryDemo.exe
+C:\Users\umit\Desktop\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\bin\Debug\DirectoryDemo.pdb
+C:\Users\umit\Desktop\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.csprojResolveAssemblyReference.cache
+C:\Users\umit\Desktop\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.csproj.CoreCompileInputs.cache
+C:\Users\umit\Desktop\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.exe
+C:\Users\umit\Desktop\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.pdb
+C:\Users\umit\Desktop\C#_araştırma\c#\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\bin\Debug\DirectoryDemo.exe.config
+C:\Users\umit\Desktop\C#_araştırma\c#\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\bin\Debug\DirectoryDemo.exe
+C:\Users\umit\Desktop\C#_araştırma\c#\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\bin\Debug\DirectoryDemo.pdb
+C:\Users\umit\Desktop\C#_araştırma\c#\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.csprojAssemblyReference.cache
+C:\Users\umit\Desktop\C#_araştırma\c#\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.csproj.CoreCompileInputs.cache
+C:\Users\umit\Desktop\C#_araştırma\c#\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.exe
+C:\Users\umit\Desktop\C#_araştırma\c#\ileri seviye c#\2014-10-C#-ileri-seviye-dok\DirectoryDemo\DirectoryDemo\obj\Debug\DirectoryDemo.pdb
